@@ -26,7 +26,12 @@ namespace Miguel
         private void Button_Click(object sender, RoutedEventArgs e)
         {
             MainWindow w = (MainWindow)Window.GetWindow(this);
-            w.frameMain.NavigationService.Navigate(new Login());
+            w.frameMain.NavigationService.Navigate(new Page1());
+        }
+
+        private void Slider_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
+        {
+
         }
     }
 }
