@@ -22,5 +22,11 @@ namespace Miguel
         {
             InitializeComponent();
         }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            MainWindow w = (MainWindow)Window.GetWindow(this);
+            w.frameMain.NavigationService.Navigate(new Login());
+        }
     }
 }
