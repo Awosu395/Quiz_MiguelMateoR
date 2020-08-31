@@ -5,8 +5,9 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:Miguel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="350" Width="790" Loaded="Window_Loaded">
     <Grid>
+        <Frame Name="frameMain" Content="" Margin="0,33,0,0" NavigationUIVisibility="Hidden" Height="253" VerticalAlignment="Top" HorizontalAlignment="Center" Width="800"/>
 
     </Grid>
 </Window>
